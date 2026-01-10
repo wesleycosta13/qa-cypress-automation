@@ -3,8 +3,6 @@ describe('DemoQA - Practice Form', () => {
     // Open the practice form page
     cy.visit('https://demoqa.com/automation-practice-form')
 
-    // Remove ads that may overlap elements and break the test
-    cy.removeAds()
   })
 
   it('Fill and submit the practice form', () => {
