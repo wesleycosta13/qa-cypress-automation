@@ -7,7 +7,7 @@ describe('DemoQA - Practice Form', () => {
 
   it('Fill and submit the practice form', () => {
     // Load test data from fixture
-    cy.fixture('user').then((user) => {
+      cy.fixture('user').then((user) => {
       // Personal information
       cy.get('#firstName').type(user.firstName)
       cy.get('#lastName').type(user.lastName)
