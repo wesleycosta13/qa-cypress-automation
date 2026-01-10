@@ -1,3 +1,12 @@
-"scripts": {
-  "cy:run": "cypress run"
+{
+  "name": "qa-cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress automation tests for DemoQA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
 }
